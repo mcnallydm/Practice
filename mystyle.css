@@ -1,0 +1,48 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+#small {
+    background-color: yellow;
+    padding: 50px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+body > h1 {
+    text-align: center;
+    width: 50%;
+    background-color: aqua;
+    margin: 10px auto;
+}
+
+nav li {
+    color: blue;
+    background-color: gray;
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav a:link, a:visited, a:active, a:hover {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+nav {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
